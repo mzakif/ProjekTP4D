@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorwhite">#ffffff</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorbtnfile">#401a2226</color>
+    <color name="icon">#ffff</color>
+    <color name="colorUnderline">#b3000000</color>
+</resources>

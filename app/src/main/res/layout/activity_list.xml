@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:layout_weight="7"
+    android:padding="8dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/galleryImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/tvTitle"
+            android:textColor="#b3000000"
+            android:lineSpacingExtra="6sp"
+            android:textStyle="bold"
+            android:text="Title"
+            ></TextView>
+
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="#80000000"
+            android:lineSpacingExtra="7sp"
+            android:text="Kejaksaan Tinggi NTB menandatangani Nota Kesepakatan (MoU) dengan BPN wilayah NTB,"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
